@@ -1,0 +1,9 @@
+Public Key:
+BL85sUgSUztkPtMu7FdPXJShvv8ms6PYSM1idzqifiEa9aAS0Tsex8K4awy-aaP1AqceA4nLfG_BOqrX9DudHaA
+
+Private Key:
+XZc8gKYgZ8UkH6uD3pdiC1J9-OWILWisSOShrstE8IE
+
+gcm_sender_id : 382254658092
+
+file push.js ada di folder js/push.js

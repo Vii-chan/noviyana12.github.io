@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+body{
+	margin: 0;
+	padding : 0;
+	font-family: sans-serif;
+
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	overflow : hidden;
+	justify-content: center;
+	align-items: center;
+	background-image : url('homeimage/landingpage.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+	position : relative;
+	display: table;
+	top: 0;
+	left:0;
+	object-fit:cover;
+}
+.banner .content{
+    margin-top: 200px !important;
+}
+.banner .content{
+	position: relative;
+	z-index: 1;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.banner .content h1{
+	margin: 0;
+	padding: 0;
+	font-size:4.5em;
+	text-transform: uppercase;
+	color: #fff;
+}
+.banner .content p{
+	margin: 0;
+	padding: 0;
+	font-size: 1.4em;
+	color: #fff;
+}
+.banner .content .button{
+	position: relative;
+	padding: 15px 30px;
+	color:rgba(25, 25, 112);
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+	font-weight: bold;
+}
+.banner .content .button:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255,255,255,0.25);
+}
+.banner .content .button svg,
+.banner .content .button svg rect{
+	position: absolute;
+	width: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	fill: transparent;
+	margin-left: -30px;
+}
+.banner .content .button svg{
+stroke-width: 2;
+stroke: gold;
+stroke-dasharray: 100;
+animation: animate 2s linear infinite;
+}
+@keyframes animate{
+	0%
+	{
+		stroke-dashoffset: 400;
+	}
+	100%
+	{
+		stroke-dashoffset: 00;
+	}
+}
+nav ul li a.active,
+nav ul li a:hover{
+	color: gold;
+	transition: 0.5s;
+}
+.sidenav{
+	background-color: black;
+}
+.sidenav a{
+	color : white !important;
+}
+.sidenav a:hover{
+	color : gold !important;
+}
+.matches{
+	margin-top: 15%;
+}
+.matches h1{
+	font-size: 34px;
+	text-align: center;
+	animation: text 2s linear infinite;
+}
+@keyframes text{
+	0%
+	{
+		color : gold;
+	}
+	30%
+	{
+		color: red;
+	}
+	60%
+	{
+		color: green;
+	}
+	100%{
+		color: yellow;
+	}
+}
+.matches h4{
+	font-size: 26px;
+	text-align: center;
+}
+.card-title{
+	text-align: center;
+	opacity: 1;
+	font-weight:bold;
+	color : black;
+}
+.badge{
+	color : red;
+	opacity: 1;
+}
+.time{
+	text-align: center;	
+	font-weight: bold;
+}
+.card-action .isi{
+	font-weight: bold;
+	font-size: 20px;
+}
+.section-3{
+	margin-top: 15%;
+	width: 100%;
+	height: 70vh;
+	overflow : hidden;
+	justify-content: center;
+	align-items: center;
+	background-image : url('homeimage/section-3.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+	position : relative;
+	display: table;
+	top: 0;
+	left:0;
+	object-fit:cover;
+}
+.section-3 h1{
+	text-align: center;
+	color : white;
+	font-size: 42px;
+}
+.section-3 h2{
+	text-align: center;
+	color : white;
+	font-size: 20px;
+}
+.section-3 .card-title{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center !important;
+	margin-top: 5%;
+}
+.section-3 .phone{
+	margin-top: -15px;
+}
+.section-3 .card:hover{
+   opacity: 1;
+}
+.section-3 .content{
+	font-size: 12px;
+}
+.nav-content .tabs .tab a:hover{
+   color: gold;
+}
+.section-3 .see-more{
+	color : gold;
+	margin-left: 10px;
+	opacity: .8;
+	background-color: black;
+}
+.section-3 .see-more:hover{
+	color : black;
+	background-color: gold;
+	margin-left: 10px;
+	opacity: 1;
+}
+#standing{
+	background-color : black;
+}
+.section-team{
+	width: 100%;
+	height: 100vh;
+	overflow : hidden;
+	justify-content: center;
+	align-items: center;
+	background-image : url('teamimage/background.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+	position : relative;
+	display: table;
+	top: 0;
+	left:0;
+	object-fit:cover;
+}
+.section-team h1{
+	text-align: center;
+	color : white;
+	font-size: 42px;
+}
+.section-team h2{
+	text-align: center;
+	color : white;
+	font-size: 20px;
+}
+.section-team .card-title{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center !important;
+	margin-top: 5%;
+}
+.section-team .phone{
+	margin-top: -15px;
+}
+.section-team .content{
+	font-size: 12px;
+}
